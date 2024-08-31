@@ -30,3 +30,4 @@ E:\DotneCore\AspNetCoreApi\UniversityManagementSystem\src\UniversityManagementSy
 E:\DotneCore\AspNetCoreApi\UniversityManagementSystem\src\UniversityManagementSystem.API\obj\Debug\net8.0\UniversityManagementSystem.API.pdb
 E:\DotneCore\AspNetCoreApi\UniversityManagementSystem\src\UniversityManagementSystem.API\obj\Debug\net8.0\UniversityManagementSystem.API.genruntimeconfig.cache
 E:\DotneCore\AspNetCoreApi\UniversityManagementSystem\src\UniversityManagementSystem.API\obj\Debug\net8.0\ref\UniversityManagementSystem.API.dll
+E:\DotneCore\AspNetCoreApi\UniversityManagementSystem\src\UniversityManagementSystem.API\obj\Debug\net8.0\UniversityManagementSystem.API.sourcelink.json
