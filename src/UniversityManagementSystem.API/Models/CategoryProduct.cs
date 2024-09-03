@@ -1,8 +1,7 @@
-﻿namespace UniversityManagementSystem.API.Model
+﻿namespace UniversityManagementSystem.API.Model;
+
+public class CategoryProduct
 {
-    public class CategoryProduct
-    {
-        public int CategoryId { get; set; }
-        public int ProductId { get; set; }
-    }
+    public int CategoryId { get; set; }
+    public int ProductId { get; set; }
 }

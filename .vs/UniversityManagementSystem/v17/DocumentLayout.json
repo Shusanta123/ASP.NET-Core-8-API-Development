@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|solutionrelative:src\\universitymanagementsystem.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|solutionrelative:src\\universitymanagementsystem.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|solutionrelative:src\\universitymanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|solutionrelative:src\\universitymanagementsystem.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.api\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|solutionrelative:src\\universitymanagementsystem.api\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|solutionrelative:src\\universitymanagementsystem.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.api\\viewmodel\\request\\productinsertviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|solutionrelative:src\\universitymanagementsystem.api\\viewmodel\\request\\productinsertviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|solutionrelative:src\\universitymanagementsystem.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.API\\appsettings.Development.json",
-              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\appsettings.Development.json",
-              "RelativeToolTip": "src\\UniversityManagementSystem.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-02T07:27:43.528Z",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.API\\Models\\Product.cs",
+              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Models\\Product.cs",
+              "RelativeToolTip": "src\\UniversityManagementSystem.API\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T15:52:29.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.API\\Program.cs",
-              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Program.cs",
-              "RelativeToolTip": "src\\UniversityManagementSystem.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABWAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.API\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "src\\UniversityManagementSystem.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T07:16:52.031Z",
+              "WhenOpened": "2024-09-03T15:42:49.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductInsertViewModel.cs",
+              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\ViewModel\\Request\\ProductInsertViewModel.cs",
+              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.API\\ViewModel\\Request\\ProductInsertViewModel.cs",
+              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\ViewModel\\Request\\ProductInsertViewModel.cs",
+              "RelativeToolTip": "src\\UniversityManagementSystem.API\\ViewModel\\Request\\ProductInsertViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T15:41:47.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.API\\Models\\Category.cs",
+              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Models\\Category.cs",
+              "RelativeToolTip": "src\\UniversityManagementSystem.API\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T15:41:19.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\DbContext\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.API\\DbContext\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\DbContext\\ApplicationDbContext.cs",
-              "RelativeToolTip": "src\\UniversityManagementSystem.API\\DbContext\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "src\\UniversityManagementSystem.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T07:04:27.811Z",
+              "WhenOpened": "2024-09-03T06:55:03.716Z",
               "EditorCaption": ""
             }
           ]
