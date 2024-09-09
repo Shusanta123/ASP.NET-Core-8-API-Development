@@ -1,39 +1,34 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using UniversityManagementSystem.API.DbContext;
-using UniversityManagementSystem.API.Model;
-using UniversityManagementSystem.API.ViewModel.Request;
+using UniversityManagementSystem.DLL.DbContext;
+using UniversityManagementSystem.DLL.Models;
+using UniversityManagementSystem.BLL.ViewModel.Request;
+using UniversityManagementSystem.BLL.Service;
 
 namespace UniversityManagementSystem.API.Controllers;
 
 
 public class ProductController : ApiBaseController
 {
-    private readonly ApplicationDbContext _dbContext;
+    private readonly IProductService _productService;
 
-    public ProductController(ApplicationDbContext dbContext)
+    public ProductController(IProductService productService)
     {
-        _dbContext = dbContext;
+        _productService = productService;
     }
 
 
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        var products = await _dbContext.Products.AsQueryable().ToListAsync();
-        return Ok(products);
+        return Ok(await _productService.GetAllProducts());
     }
 
 
     [HttpGet("id")]
     public async Task<IActionResult> GetAData(int id)
     {
-        var product = await _dbContext.Products.FirstOrDefaultAsync(x => x.Id == id);
-        if (product == null)
-        {
-            return NotFound("data Not Found");
-        }
-        return Ok(product);
+        return Ok(await _productService.GetProductById(id));
     }
 
 
@@ -46,57 +41,19 @@ public class ProductController : ApiBaseController
             Description = request.Description,
             Price = request.Price
         };
-
-        _dbContext.Products.Add(product);
-
-        if (await _dbContext.SaveChangesAsync() > 0)
-        {
-            return Ok(product);
-        }
-        return NotFound("data Insert error");
+        return Ok(await _productService.InsertProduct(product));
 
     }
-
 
     [HttpPut("id")]
     public async Task<IActionResult> Update(int id, ProductInsertViewModel request)
     {
-        var product = await _dbContext.Products.FirstOrDefaultAsync(x => x.Id == id);
-
-        if (product == null)
-        {
-            return NotFound("data Not Found");
-        }
-
-        product.Name = request.Name;
-        product.Description = request.Description;
-        product.Price = request.Price;
-
-        _dbContext.Products.Update(product);
-
-        if (await _dbContext.SaveChangesAsync() > 0)
-        {
-            return Ok(product);
-        }
-        return NotFound("data Update error");
+        return Ok(await _productService.UpdateProduct(id, request));
     }
 
     [HttpDelete("id")]
     public async Task<IActionResult> Delete(int id)
     {
-        var product = await _dbContext.Products.FirstOrDefaultAsync(x => x.Id == id);
-
-        if (product == null)
-        {
-            return NotFound("data Not Found");
-        }
-
-        _dbContext.Products.Remove(product);
-
-        if (await _dbContext.SaveChangesAsync() > 0)
-        {
-            return Ok("Delete was Successful");
-        }
-        return NotFound("data Delete error");
+       return Ok(await _productService.DeleteProduct(id));
     }
 }
