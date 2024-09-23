@@ -3,6 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using UniversityManagementSystem.BLL.ViewModel.Request;
 using UniversityManagementSystem.DLL.DbContext;
 using UniversityManagementSystem.DLL.Models;
+using UniversityManagementSystem.DLL.Repository;
 
 namespace UniversityManagementSystem.BLL.Service;
 
@@ -19,29 +20,29 @@ public interface ICategoryService
 
 public class CategoryService : ICategoryService
 {
-    private readonly ApplicationDbContext _context;
+    private readonly ICategoryRepository _categoryRepository;
 
-    public CategoryService(ApplicationDbContext context)
+    public CategoryService(ICategoryRepository categoryRepository)
     {
-        _context = context;
+        _categoryRepository = categoryRepository;
     }
 
     
     public async Task<List<Category>> GetAll()
     {
-        return await _context.Categories.AsQueryable().ToListAsync();
+        return await _categoryRepository.FindAll().ToListAsync();
     }
     public async Task<Category> GetAData(int id)
     {
-        return await _context.Categories.FirstOrDefaultAsync(x => x.Id == id);
+        return await _categoryRepository.FindByCondition(x => x.Id == id).FirstOrDefaultAsync();
     }
 
 
     public async Task<Category> AddCategory(Category category)
     {
-        _context.Categories.Add(category);
+        _categoryRepository.Create(category);
 
-        if (await _context.SaveChangesAsync() > 0)
+        if (await _categoryRepository.SaveChangesAsync())
         {
             return category;
         }
@@ -68,9 +69,9 @@ public class CategoryService : ICategoryService
             category.ShortName = request.ShortName;
         }
 
-        _context.Categories.Update(category);
+        _categoryRepository.Update(category);
 
-        if (await _context.SaveChangesAsync() > 0)
+        if (await _categoryRepository.SaveChangesAsync())
         {
             return category;
         }
@@ -87,9 +88,9 @@ public class CategoryService : ICategoryService
             throw new Exception("category not found");
         }
 
-        _context.Categories.Remove(category);
+        _categoryRepository.Delete(category);
 
-        if (await _context.SaveChangesAsync() > 0)
+        if (await _categoryRepository.SaveChangesAsync())
         {
             return category;
         }

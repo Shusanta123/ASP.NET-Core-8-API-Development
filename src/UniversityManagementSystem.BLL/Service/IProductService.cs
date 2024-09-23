@@ -9,6 +9,7 @@ using UniversityManagementSystem.DLL.DbContext;
 using Microsoft.EntityFrameworkCore;
 using Azure.Core;
 using Microsoft.IdentityModel.Tokens;
+using UniversityManagementSystem.DLL.Repository;
 namespace UniversityManagementSystem.BLL.Service;
 
 public interface IProductService
@@ -25,29 +26,29 @@ public interface IProductService
 
 public class ProductService : IProductService
 {
-    private readonly ApplicationDbContext _context;
+    private readonly IProductRepository _productRepository;
 
-    public ProductService(ApplicationDbContext context) 
+    public ProductService(IProductRepository productRepository) 
     {
-        _context = context;
+        _productRepository = productRepository;
     }
 
 
     public async Task<List<Product>> GetAllProducts()
     {
-       return await _context.Products.AsQueryable().ToListAsync();
+       return await _productRepository.FindAll().ToListAsync();
     }
 
     public async Task<Product> GetProductById(int id)
     {
-       return await _context.Products.FirstOrDefaultAsync(x => x.Id == id);
+       return await _productRepository.FindByCondition(x => x.Id == id).FirstOrDefaultAsync();
     }
 
     public async Task<Product> InsertProduct(Product product)
     {
-         _context.Products.Add(product);
+         _productRepository.Create(product);
 
-        if (await _context.SaveChangesAsync() > 0)
+        if (await _productRepository.SaveChangesAsync())
         {
             return product;
         }
@@ -74,9 +75,9 @@ public class ProductService : IProductService
             product.Description = request.Description;
         }
 
-        _context.Products.Update(product);
+        _productRepository.Update(product);
 
-        if (await _context.SaveChangesAsync() > 0)
+        if (await _productRepository.SaveChangesAsync())
         {
             return product;
         }
@@ -92,9 +93,9 @@ public class ProductService : IProductService
             throw new Exception("category not found");
         }
 
-        _context.Products.Remove(product);
+        _productRepository.Delete(product);
 
-        if (await _context.SaveChangesAsync() > 0)
+        if (await _productRepository.SaveChangesAsync())
         {
             return product;
         }

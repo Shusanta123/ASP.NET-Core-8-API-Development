@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|solutionrelative:src\\universitymanagementsystem.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABB3D9E1-B814-4F84-A643-AC5717ACE36D}|src\\UniversityManagementSystem.API\\UniversityManagementSystem.API.csproj|solutionrelative:src\\universitymanagementsystem.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B601939-1F07-41BA-9217-1FC5598505A1}|src\\UniversityManagementSystem.BLL\\UniversityManagementSystem.BLL.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.bll\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B601939-1F07-41BA-9217-1FC5598505A1}|src\\UniversityManagementSystem.BLL\\UniversityManagementSystem.BLL.csproj|solutionrelative:src\\universitymanagementsystem.bll\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B601939-1F07-41BA-9217-1FC5598505A1}|src\\UniversityManagementSystem.BLL\\UniversityManagementSystem.BLL.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.bll\\service\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B601939-1F07-41BA-9217-1FC5598505A1}|src\\UniversityManagementSystem.BLL\\UniversityManagementSystem.BLL.csproj|solutionrelative:src\\universitymanagementsystem.bll\\service\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{778489A5-83AB-420D-A65E-17AF0ED958F2}|src\\UniversityManagementSystem.DLL\\UniversityManagementSystem.DLL.csproj|e:\\dotnecore\\aspnetcoreapi\\universitymanagementsystem\\src\\universitymanagementsystem.dll\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778489A5-83AB-420D-A65E-17AF0ED958F2}|src\\UniversityManagementSystem.DLL\\UniversityManagementSystem.DLL.csproj|solutionrelative:src\\universitymanagementsystem.dll\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.API\\Controllers\\CategoryController.cs",
-              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "src\\UniversityManagementSystem.API\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T07:17:10.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.BLL\\Service\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.BLL\\Service\\ICategoryService.cs",
-              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.BLL\\Service\\ICategoryService.cs",
-              "RelativeToolTip": "src\\UniversityManagementSystem.BLL\\Service\\ICategoryService.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAwGAAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T07:14:22.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.BLL\\Service\\IProductService.cs",
-              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.BLL\\Service\\IProductService.cs",
-              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.BLL\\Service\\IProductService.cs",
-              "RelativeToolTip": "src\\UniversityManagementSystem.BLL\\Service\\IProductService.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAiwGAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T06:09:01.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.API\\Controllers\\ProductController.cs",
-              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.API\\Controllers\\ProductController.cs*",
-              "RelativeToolTip": "src\\UniversityManagementSystem.API\\Controllers\\ProductController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.DLL\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "src\\UniversityManagementSystem.DLL\\Models\\Category.cs",
+              "ToolTip": "E:\\DotneCore\\AspNetCoreApi\\UniversityManagementSystem\\src\\UniversityManagementSystem.DLL\\Models\\Category.cs",
+              "RelativeToolTip": "src\\UniversityManagementSystem.DLL\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T06:08:28.621Z",
+              "WhenOpened": "2024-09-23T16:29:02.638Z",
               "EditorCaption": ""
             }
           ]

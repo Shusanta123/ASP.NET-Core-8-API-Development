@@ -1,7 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using UniversityManagementSystem.DLL.DbContext;
+using UniversityManagementSystem.DLL;
 using UniversityManagementSystem.API.StartupExtension;
 using UniversityManagementSystem.BLL.Service;
+using UniversityManagementSystem.BLL;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,9 +12,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDatabaseExtensionHelper(builder.Configuration); // database configuration
-builder.Services.AddScoped<ICategoryService, CategoryService>();
-builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddDatabaseExtensionHelper(builder.Configuration); // aadd database configuration
+builder.Services.AddBLLDependency(); // all bll layer dependency added in this method
+builder.Services.AddDLLDependency(); // all dll layer dependency added in this method
 
 
 
